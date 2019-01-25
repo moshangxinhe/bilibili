@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'cn.sky'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'junit:junit:4.12'
+    compile 'commons-io:commons-io:2.6'
+    compile 'com.alibaba:fastjson:1.2.52'
+    compile 'org.springframework:spring-core:4.2.5.RELEASE'
+}
